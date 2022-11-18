@@ -966,7 +966,7 @@ body {
 	/* width: 202px; */
 	width: 199px;
 	max-height: 42px;
-	background: url('/img/block_2/icon/arrow.png') no-repeat;
+	background: url('./img/block_2/icon/arrow.png') no-repeat;
 	background-position: 95% 50%;
 }
 @media (max-width: 767.98px){
