@@ -669,7 +669,7 @@ body {
 		margin: 0px 0px 0px 40px;
 	}
 }
-@media (max-width: 360px){
+@media (max-width: 767.98px){
 	.tour__form {
 		max-width: 318px;
 		padding: 20px 20px 40px 20px;
@@ -704,7 +704,7 @@ body {
 		margin-top: 0px;
 	}
 } */
-@media (max-width: 360px){
+@media (max-width: 767.98px){
 	.tour__column {
 		flex-wrap: wrap;
 		gap: 30px;
@@ -722,7 +722,7 @@ body {
 	line-height: 28px;
 	color: #1B1F2B;
 }
-@media (max-width: 360px){
+@media (max-width: 767.98px){
 	.tour__label {
 		font-size: 16px;
 		line-height: 142%;
@@ -742,7 +742,7 @@ body {
 	font-size: 20px;
 	line-height: 142%;
 }
-@media (max-width: 360px){
+@media (max-width: 767.98px){
 	.tour__input {
 		font-size: 16px;
 		line-height: 142%;
@@ -762,7 +762,7 @@ body {
 	height: 152px;
 	text-align:start;
 }
-@media (max-width: 360px){
+@media (max-width: 767.98px){
 	.label__comments {
 		height: 132px;
 	}
@@ -787,7 +787,7 @@ body {
 	gap: 11px;
 	padding-top: 8px;
 }
-@media (max-width: 360px){
+@media (max-width: 767.98px){
 	.button-age__item{
 		gap: 10px;
 		padding-top: 7px;
@@ -813,7 +813,7 @@ body {
 	letter-spacing: -0.01em;
 	color: #A6A6A6;
 }
-@media (max-width: 360px){
+@media (max-width: 767.98px){
 	.license__label {
 		font-size: 16px;
 		line-height: 142%;
