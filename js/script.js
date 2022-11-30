@@ -41,11 +41,11 @@ const hoverBlock = document.querySelector('.photo-main-block__items');
 const hoverNewBlock = document.querySelector('.photo-main-block__footer');
 hoverBlock.addEventListener('mouseover', () => {
     hoverNewBlock.classList.add('hover');
-       console.log('privet');
+    //    console.log('privet');
     });
-    hoverBlock.addEventListener('mouseout', () => {
-        hoverNewBlock.classList.remove('hover');
-    console.log('privet');
+hoverBlock.addEventListener('mouseout', () => {
+    hoverNewBlock.classList.remove('hover');
+        // console.log('privet');
 });
 
 
