@@ -9,7 +9,7 @@ allNavButtons.forEach((button) => {
     });
 });
 
-//Свой checkbox
+//button checkbox
 const checkButton = document.querySelector('.checkbox__real')
 
 if(checkButton) {
@@ -18,14 +18,13 @@ if(checkButton) {
     }) 
     
 } 
-
+//button radio
 const checkRadio = document.querySelector('.radio__checkbox')
 
 if(checkRadio) {
     checkRadio.addEventListener('click', () => {
         checkRadio.classList.toggle('radio__checkboxx');   
     }) 
-    
 } 
 const checkRadioTwo = document.querySelector('.radio__checkbox_2')
 
@@ -33,53 +32,35 @@ if(checkRadioTwo) {
     checkRadioTwo.addEventListener('click', () => {
         checkRadioTwo.classList.toggle('radio__checkboxx');   
     }) 
-    
 } 
-const hoverBlock = document.querySelectorAll('.photo-main-block__items');
-hoverBlock.forEach((button) => {
-    button.addEventListener('mouseover', (event) => {
-        button.classList.add('.photo-main-block__footer.hover');
-        // console.log('ptivet');
-        hoverBlock.forEach((button) => {
-            button.classList.remove('.photo-main-block__footer.hover');
-        });
-        const { target } = event;
-        target.classList.add('.photo-main-block__footer.hover');
-    });
-});
-// const lnk=document.getElementById('#hovers');
-// const bk=document.querySelector('.photo-main-block__footer:hover');
-// lnk.onmouseover=function(){bk.style.visibility="visible"}
-// lnk.onmouseout=function(){bk.style.visibility="hidden"}
 
-// const hoverBlock = document.querySelectorAll('.photo-main-block__items');
-// const hoverNewBlock = document.querySelectorAll('.photo-main-block__footer');
 
-// for(let i = 0; 1 <= hoverBlock.length; i++) {
-//     let i = event
-//     event.addEventListener('mouseenter', () => {
-//             hoverNewBlock.classList.add('hover')
-//         })
-//         i()
-// }
 
-// hoverBlock.forEach((items) => {
-//     if(!hoverBlock) {
-//         items.addEventListener('mouseenter', () => {
-//     hoverNewBlock.classList.add('hover')
-// })
-// items.addEventListener('mouseleave', () => {
-//     hoverNewBlock.classList.remove('hover')
-// })
-// }})
 
-// })
 // const hoverBlock = document.querySelector('.photo-main-block__items');
 // const hoverNewBlock = document.querySelector('.photo-main-block__footer');
+// hoverBlock.addEventListener('mouseover', () => {
+//     hoverNewBlock.classList.add('hover');
+//        console.log('privet');
+//     });
+//     hoverBlock.addEventListener('mouseout', () => {
+//         hoverNewBlock.classList.remove('hover');
+//     console.log('privet');
+// });
 
-// hoverBlock.addEventListener("mouseover", function (event) {
-//     let target = event.target.closest('div')
-//     if(!target) return
-//     hoverNewBlock.classList.add('hover')
-// })
+// let p = document.querySelector('.photo-main-block__img');
+// let c = document.querySelectorAll('.photo-main-block__footer');
+
+// p.addEventListener('mouseover', e => c.forEach(a => a.classList.add("photo-main-block__footer_hover")));
+// p.addEventListener('mouseout', e => c.forEach(a => a.classList.remove("photo-main-block__footer_hover")));
+
+
+// const hoverBlock = document.getElementsByClassName('photo-main-block__items');
+// const hoverNewBlock = document.getElementsByClassName('photo-main-block__footer');
+
+// hoverBlock.onmouseover = function(){hoverNewBlock.classList.add('hover')};
+// hoverBlock.onmouseout = function(){hoverNewBlock.classList.remove('hover')};
+
+// let News_Main_Block = document.querySelector('.Сategory_Main_Block'); 
+// let News_Name = document.querySelector('.Сategory_name_1');
 

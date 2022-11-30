@@ -425,19 +425,13 @@ body {
 	}
 }
 .photo-main-block {}
-.photo-main-block__items{
+.photo-main-block__items {
 	/* position: relative; */
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-/* .photo-main-block__footer:hover{
-	padding: 7px 20px 7px 20px;
-	left: 30px;
-	background: #286562;
-	border-radius: 50px;
-} */
+
 .photo-main-block__item {
 	position: relative;
-	
 }
 @media (max-width: 767.98px){
 	.photo-main-block__item::after{
@@ -516,7 +510,7 @@ body {
 		border-radius: 20px;
 	}
 }
-.photo-main-block__img img{
+.photo-main-block__img img {
 	position: absolute;
 	z-index: 1;
 	max-width: 370px;
@@ -556,7 +550,7 @@ body {
 }
 .photo-main-block__footer {
 	position: absolute;
-	z-index: 1;
+	z-index: 2;
 	display: flex;
 	max-width: 199px;
 	width: 100%;
@@ -564,7 +558,6 @@ body {
 	left: 50px;
 	bottom: 40px;
 	flex-direction: row;
-	/* padding: 0px 0px 0px 0px; */
 	align-items: center;
 	gap: 15px;
 }
@@ -583,13 +576,14 @@ body {
 
 .photo-main-block__icon {}
 
+
 .photo-main-block__footer:hover{
 	padding: 7px 20px 7px 20px;
 	left: 30px;
 	background: #286562;
 	border-radius: 50px;
 }
-.photo-main-block__footer.hover{
+.photo-main-block__footer_hover{
 	padding: 7px 20px 7px 20px;
 	left: 30px;
 	background: #286562;
@@ -873,7 +867,7 @@ body {
 	height: 26px;
 	border-radius: 12px;
 	border: 2px solid #1B1F2B;
-	/* background-image: url(/img/ellipse.svg); */
+	/* background-image: url(../img/ellipse.svg); */
 	background-position: 50%;
 	background-repeat: no-repeat;
 	position: absolute;
@@ -885,7 +879,7 @@ body {
 	height: 26px;
 	border-radius: 12px;
 	border: 2px solid #1B1F2B;
-	background-image: url(/img/ellipse.svg);
+	background-image: url(../img/ellipse.svg);
 	background-position: 50%;
 	background-repeat: no-repeat;
 	position: absolute;
@@ -904,7 +898,7 @@ body {
 	height: 26px;
 	border-radius: 4px;
 	border: 2px solid #1B1F2B;
-	/* background-image: url(/img/check.svg); */
+	/* background-image: url(../img/check.svg); */
 	background-position: 50%;
 	background-repeat: no-repeat;
 	position: absolute;
@@ -915,7 +909,7 @@ body {
 	height: 26px;
 	border-radius: 4px;
 	border: 2px solid #1B1F2B;
-	background-image: url(/img/check.svg);
+	background-image: url(../img/check.svg);
 	background-position: 50%;
 	background-repeat: no-repeat;
 	position: absolute;
