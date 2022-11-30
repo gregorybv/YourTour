@@ -9,6 +9,32 @@ allNavButtons.forEach((button) => {
     });
 });
 
+//Свой checkbox
+const checkButton = document.querySelector('.checkbox__real')
+
+if(checkButton) {
+    checkButton.addEventListener('click', () => {
+    checkButton.classList.toggle('checkbox__reals');   
+    }) 
+    
+} 
+
+const checkRadio = document.querySelector('.radio__checkbox')
+
+if(checkRadio) {
+    checkRadio.addEventListener('click', () => {
+        checkRadio.classList.toggle('radio__checkboxx');   
+    }) 
+    
+} 
+const checkRadioTwo = document.querySelector('.radio__checkbox_2')
+
+if(checkRadioTwo) {
+    checkRadioTwo.addEventListener('click', () => {
+        checkRadioTwo.classList.toggle('radio__checkboxx');   
+    }) 
+    
+} 
 const hoverBlock = document.querySelectorAll('.photo-main-block__items');
 hoverBlock.forEach((button) => {
     button.addEventListener('mouseover', (event) => {
