@@ -550,7 +550,7 @@ body {
 }
 .photo-main-block__footer {
 	position: absolute;
-	z-index: 2;
+	z-index: 4;
 	display: flex;
 	max-width: 199px;
 	width: 100%;

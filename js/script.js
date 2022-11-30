@@ -37,16 +37,17 @@ if(checkRadioTwo) {
 
 
 
-// const hoverBlock = document.querySelector('.photo-main-block__items');
-// const hoverNewBlock = document.querySelector('.photo-main-block__footer');
-// hoverBlock.addEventListener('mouseover', () => {
-//     hoverNewBlock.classList.add('hover');
-//        console.log('privet');
-//     });
-//     hoverBlock.addEventListener('mouseout', () => {
-//         hoverNewBlock.classList.remove('hover');
-//     console.log('privet');
-// });
+const hoverBlock = document.querySelector('.photo-main-block__items');
+const hoverNewBlock = document.querySelector('.photo-main-block__footer');
+hoverBlock.addEventListener('mouseover', () => {
+    hoverNewBlock.classList.add('hover');
+       console.log('privet');
+    });
+    hoverBlock.addEventListener('mouseout', () => {
+        hoverNewBlock.classList.remove('hover');
+    console.log('privet');
+});
+
 
 // let p = document.querySelector('.photo-main-block__img');
 // let c = document.querySelectorAll('.photo-main-block__footer');
@@ -61,6 +62,5 @@ if(checkRadioTwo) {
 // hoverBlock.onmouseover = function(){hoverNewBlock.classList.add('hover')};
 // hoverBlock.onmouseout = function(){hoverNewBlock.classList.remove('hover')};
 
-// let News_Main_Block = document.querySelector('.Сategory_Main_Block'); 
-// let News_Name = document.querySelector('.Сategory_name_1');
+
 
