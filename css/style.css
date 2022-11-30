@@ -842,6 +842,7 @@ body {
 	background-repeat: no-repeat;
 	position: absolute;
 	margin-bottom: 1px;
+	cursor: pointer;
 }
 .radio__checkboxx {
 	display:flex;
@@ -853,6 +854,7 @@ body {
 	background-position: 50%;
 	background-repeat: no-repeat;
 	position: absolute;
+	cursor: pointer;
 }
 .radio_2 {
 	width: 1px;
@@ -872,6 +874,7 @@ body {
 	background-repeat: no-repeat;
 	position: absolute;
 	margin-bottom: 1px;
+	cursor: pointer;
 }
 .radio__checkboxx {
 	display:flex;
@@ -883,6 +886,7 @@ body {
 	background-position: 50%;
 	background-repeat: no-repeat;
 	position: absolute;
+	cursor: pointer;
 }
 /*******************************************************************/
 .license__checkbox {
