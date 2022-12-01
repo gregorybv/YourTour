@@ -169,30 +169,31 @@
 											<label for="input_1" class="tour__label">Направление</label>
 											<select class="tour__input">
 												<option value="" class="tour__input">Куда хотите ехать</option>
-												<option value="" class="tour__input">Туда</option>
-												<option value="" class="tour__input">Сюда</option>
-												<option value="" class="tour__input">Отсюда</option>
+												<option value="" class="tour__input input__hover">Туда</option>
+												<option value="" class="tour__input input__hover">Сюда</option>
+												<option value="" class="tour__input input__hover">Отсюда</option>
 											</select>
 										</div>
 									</div>
 									<div class="tour__column">
 										<div class="tour__item">
 											<label for="input_1" class="tour__label">Email</label>
-											<input type="email" class="tour__input" placeholder="example@mail.com">
+											<input type="email" class="tour__input" placeholder="example@mail.com" required>
 										</div>
 										<div class="tour__item">
 											<label for="input_1" class="tour__label" >Телефон</label>
-											<input type="tel" name="phone" class="tour__input" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _">
+											<input type="tel" name="tel" class="tour__input" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" required id="tel"
+											 minlength="6" maxlength="12">
 										</div>
 									</div>
 									<div class="tour__column">
 										<div class="tour__item">
 											<label for="input_1" class="tour__label">Дата от</label>
-											<input type="text" class="tour__input" placeholder="ДД.ММ.ГГГГ">
+											<input type="text" class="tour__input" placeholder="ДД.ММ.ГГГГ" required>
 										</div>
 										<div class="tour__item">
 											<label for="input_1" class="tour__label">Дата до</label>
-											<input type="text" class="tour__input" placeholder="ДД.ММ.ГГГГ">
+											<input type="text" class="tour__input" placeholder="ДД.ММ.ГГГГ" required>
 										</div>
 									</div>
 									<div class="tour__comments">

@@ -34,9 +34,22 @@ if(checkRadioTwo) {
     }) 
 } 
 
+//Проверка заполнения телефона
+let inp = document.querySelector('#tel');
 
+// Проверяем фокус
+inp.addEventListener('focus', _ => {
+  // Если там ничего нет или есть, но левое
+  if(!/^\+\d*$/.test(inp.value))
+    // То вставляем знак плюса как значение
+    inp.value = '+';
+});
 
-
+inp.addEventListener('keypress', e => {
+  // Отменяем ввод не цифр
+  if(!/\d/.test(e.key))
+    e.preventDefault();
+});
 // const hoverBlock = document.querySelector('.photo-main-block__items');
 // const hoverNewBlock = document.querySelector('.photo-main-block__footer');
 // hoverBlock.addEventListener('mouseover', () => {
