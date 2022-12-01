@@ -727,6 +727,7 @@ body {
 	background: #F9F7F4;
 	color: #A6A6A6;
 	border-radius: 10px;
+	border-color: #1B1F2B;
 	margin: 8px 0px 0px 0px;
 	padding-left: 20px;
 	/* font-size: calc(16px + 4 * (100vw / 1170)); */
@@ -761,6 +762,7 @@ body {
 	background: #F9F7F4;
 	border-radius: 10px;
 	height: 152px;
+	border-color: #1B1F2B;
 	text-align:start;
 	padding: 0px 0px 118px 18px;
 }
