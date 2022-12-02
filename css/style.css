@@ -713,15 +713,17 @@ body {
 	border-radius: 10px;
 	height: 152px;
 	border-color: #1B1F2B;
-	outline-color: #1B1F2B;
+	
 	text-align:start;
 	padding: 0px 0px 118px 18px;
 }
 .label__comments:focus{
 	border-color: #1B1F2B;
+	outline-color: #1B1F2B;
 }
 .label__comments:hover{
 	background: #F4F0E9;
+	outline-color: #1B1F2B;
 }
 @media (max-width: 767.98px){
 	.label__comments {
