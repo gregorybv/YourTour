@@ -669,6 +669,7 @@ body {
 	/* color: #A6A6A6; */
 	border-radius: 10px;
 	border-color: #1B1F2B;
+	
 	margin: 8px 0px 0px 0px;
 	padding-left: 20px;
 	/* font-size: calc(16px + 4 * (100vw / 1170)); */
@@ -677,14 +678,17 @@ body {
 }
 .tour__input:hover{
 	background: #F4F0E9;
+	outline-color: #1B1F2B;
 }
 .tour__input:focus{
 	background: #F4F0E9;
 	color: #1B1F2B;
 	border-color: #1B1F2B;
+	outline-color: #1B1F2B;
 }
 .tour__input:active{
 	border-color: #1B1F2B;
+	outline-color: #1B1F2B;
 }
 .tour__input::placeholder{
 	color: #A6A6A6;
@@ -709,6 +713,7 @@ body {
 	border-radius: 10px;
 	height: 152px;
 	border-color: #1B1F2B;
+	outline-color: #1B1F2B;
 	text-align:start;
 	padding: 0px 0px 118px 18px;
 }
