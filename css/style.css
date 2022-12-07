@@ -832,7 +832,7 @@ body {
 	border-radius: 12px;
 	border: 2px solid #1B1F2B;
 	background-image: url(../img/ellipse.svg);
-	background-position: 50%;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	position: absolute;
 	cursor: pointer;

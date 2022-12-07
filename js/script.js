@@ -33,23 +33,39 @@ if (checkButton) {
 //     })
 // }
 
-const checkRadio = document.querySelector(".radio__checkbox")
-const checkRadioTwo = document.querySelector(".radio__checkbox_2")
-let switchRadio = function () {
-    if (checkRadio) {
-        checkRadio.addEventListener("click", () => {
-            checkRadio.classList.toggle("radio__checkboxx")
-        })
-    }
+// const checkRadio = document.querySelector(".radio__checkbox")
+// const checkRadioTwo = document.querySelector(".radio__checkbox_2")
+// let switchRadio = function () {
+//     if (checkRadio) {
+//         checkRadio.addEventListener("click", () => {
+//             checkRadio.classList.toggle("radio__checkboxx")
+//         })
+//     }
+// }
+// switchRadio()
+// let switchRadioTwo = function () {
+//     if (checkRadioTwo) {
+//         checkRadioTwo.addEventListener("click", () => {
+//             checkRadioTwo.classList.toggle("radio__checkboxx")
+//         })
+//     }
+// }
+// switchRadioTwo()
 
-    if (checkRadioTwo) {
-        checkRadioTwo.addEventListener("click", () => {
-            checkRadioTwo.classList.toggle("radio__checkboxx")
+const spans = document.querySelectorAll(".radio__checkbox")
+spans.forEach((span) => {
+    span.addEventListener("click", () => {
+        spans.forEach((sp) => {
+            if (sp !== span) {
+                sp.classList.remove("radio__checkboxx")
+                sp.previousElementSibling.setAttribute("checked", "false")
+            }
         })
-    }
-}
+        span.classList.toggle("radio__checkboxx")
+        span.previousElementSibling.setAttribute("checked", "true")
+    })
+})
 
-switchRadio()
 //Проверка заполнения телефона
 let inp = document.querySelector("#tel")
 
