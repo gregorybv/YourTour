@@ -680,14 +680,14 @@ body {
 }
 .tour__input:hover{
 	background: #F4F0E9;
-	outline-color: #1B1F2B;
 	cursor: pointer;
 }
 .tour__input:focus{
 	background: #F4F0E9;
 	color: #1B1F2B;
-	border-color: #A6A6A6;
+	outline: 1px solid #A6A6A6;
 	outline-color: #A6A6A6;
+	outline-width: thin;
 }
 .tour__input:active{
 	border-color: #A6A6A6;
@@ -716,19 +716,18 @@ body {
 	background: #F9F7F4;
 	border-radius: 10px;
 	height: 152px;
-	border-color: #1B1F2B;
 	text-align:start;
 	padding: 0px 0px 118px 18px;
 }
 .label__comments:focus{
-	border-color: #1B1F2B;
-	border: 1px solid #A6A6A6;
+	outline: 0px solid #A6A6A6;;
 	outline-color: #A6A6A6;
+	outline-width: thin;
 }
+
 .label__comments:hover{
 	background: #F4F0E9;
 	outline-color: #A6A6A6;
-	border: 0px solid #A6A6A6;
 	cursor: pointer;
 }
 @media (max-width: 767.98px){
@@ -800,12 +799,12 @@ body {
 	border-radius: 12px;
 	border: 2px solid #1B1F2B;
 	background-image: url(/img/ellipse.svg);
-	background-position: 50%;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	position: absolute;
 	cursor: pointer;
 }
-.radio_2 {
+/* .radio_2 {
 	width: 1px;
 	height: 1px;
 	overflow: hidden;
@@ -818,7 +817,6 @@ body {
 	height: 26px;
 	border-radius: 12px;
 	border: 2px solid #1B1F2B;
-	/* background-image: url(../img/ellipse.svg); */
 	background-position: 50%;
 	background-repeat: no-repeat;
 	position: absolute;
@@ -836,7 +834,7 @@ body {
 	background-repeat: no-repeat;
 	position: absolute;
 	cursor: pointer;
-}
+} */
 /*******************************************************************/
 .license__checkbox {
 	width: 1px;

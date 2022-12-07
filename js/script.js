@@ -17,40 +17,6 @@ if (checkButton) {
         checkButton.classList.toggle("checkbox__reals")
     })
 }
-//button radio
-// const checkRadio = document.querySelector(".radio__checkbox")
-// const checkRadioTwo = document.querySelector(".radio__checkbox_2")
-
-// if (checkRadio) {
-//     checkRadio.addEventListener("click", () => {
-//         checkRadio.classList.toggle("radio__checkboxx")
-//     })
-// }
-
-// if (checkRadioTwo) {
-//     checkRadioTwo.addEventListener("click", () => {
-//         checkRadioTwo.classList.toggle("radio__checkboxx")
-//     })
-// }
-
-// const checkRadio = document.querySelector(".radio__checkbox")
-// const checkRadioTwo = document.querySelector(".radio__checkbox_2")
-// let switchRadio = function () {
-//     if (checkRadio) {
-//         checkRadio.addEventListener("click", () => {
-//             checkRadio.classList.toggle("radio__checkboxx")
-//         })
-//     }
-// }
-// switchRadio()
-// let switchRadioTwo = function () {
-//     if (checkRadioTwo) {
-//         checkRadioTwo.addEventListener("click", () => {
-//             checkRadioTwo.classList.toggle("radio__checkboxx")
-//         })
-//     }
-// }
-// switchRadioTwo()
 
 const spans = document.querySelectorAll(".radio__checkbox")
 spans.forEach((span) => {
