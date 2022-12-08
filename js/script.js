@@ -17,7 +17,7 @@ if (checkButton) {
         checkButton.classList.toggle("checkbox__reals")
     })
 }
-
+// Переключатель radio
 const spans = document.querySelectorAll(".radio__checkbox")
 spans.forEach((span) => {
     span.addEventListener("click", () => {
