@@ -528,15 +528,12 @@ body {
 }
 @media (max-width: 767.98px){
 	.photo-main-block__footer {
-		/* left: 25px;
-		bottom: 17.5px; */
 		max-width: 160px;
 		margin-left: -26px;
     	margin-bottom: -24.5px;
 	}
 }
 .photo-main-block__text {
-	
 	font-weight: 700;
 	/* font-size: calc(16px + 7 * (100vw / 1170)); */
 	font-size: 23px;
