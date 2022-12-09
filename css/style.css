@@ -486,19 +486,23 @@ body {
 }
 @media (max-width: 1024px) {
 	.photo-main-block__img{
-		width: 450px;
+		max-width: 450px;
 		height: 531px;
+		
 	}
 	.photo-main-block__img img{
 		max-width: 450px;
 		width: 100%;
+		object-fit: cover;
 	}
 }
 @media (max-width: 767.98px){
 	.photo-main-block__img{
-		width: 318px;
+		max-width: 318px;
+		/* width: 100%; */
 		height: 318px;
 		border-radius: 20px;
+		object-fit:cover;
 	}
 	.photo-main-block__img img{
 		max-width: 318px;
@@ -691,6 +695,9 @@ body {
 .tour__input::placeholder{
 	color: #A6A6A6;
 }
+/* .input__placeholder {
+	color: #A6A6A6;
+} */
 @media (max-width: 767.98px){
 	.tour__input {
 		font-size: 16px;
