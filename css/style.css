@@ -761,7 +761,7 @@ body {
 	}
 }
 /**********Radio button*********************************************************/
-.tour__label {
+.tour__labels {
 	display: block;
 	position: relative;
 	padding-left: 35px;
@@ -773,7 +773,7 @@ body {
 	-ms-user-select: none;
 	user-select: none;
 }
-.tour__label input {
+.tour__labels input {
 	position: absolute;
 	opacity: 0;
 	cursor: pointer;
@@ -790,10 +790,10 @@ body {
 	background-color: #FFFFFF;
 	border-radius: 50%;
 }
-.tour__label:hover input ~ .radio__checkbox {
+.tour__labels:hover input ~ .radio__checkbox {
 	background-color: #FFFFFF;
 }
-.tour__label input:checked ~ .radio__checkbox {
+.tour__labels input:checked ~ .radio__checkbox {
 	background-color: #ffffff;
 }
 .radio__checkbox:after {
@@ -801,16 +801,22 @@ body {
 	position: absolute;
 	display: none;
 }
-.tour__label input:checked ~ .radio__checkbox:after {
+.tour__labels input:checked ~ .radio__checkbox:after {
 	display: block;
 }
-.tour__label .radio__checkbox:after {
+.tour__labels .radio__checkbox:after {
 	top: 5px;
 	left: 5px;
 	width: 12px;
 	height: 12px;
 	border-radius: 50%;
 	background: rgb(0, 0, 0);
+}
+.radio__text {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 142%;
+	color: #1B1F2B;
 }
 /*********Checkbox**********************************************************/
 .license__label {
