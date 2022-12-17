@@ -1,9 +1,0 @@
-.photo-main__image{
-	max-width: 450px;
-	width: 100%;
-	object-fit: cover;
-	border-radius: 20px;
-	object-fit: fill;
-	object-fit: cover;
-	transition: 300ms ease;
-}
