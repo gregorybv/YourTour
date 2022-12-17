@@ -772,6 +772,10 @@ body {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 142%;
+	color: #1B1F2B;
 }
 .tour__labels input {
 	position: absolute;
@@ -811,12 +815,6 @@ body {
 	height: 12px;
 	border-radius: 50%;
 	background: rgb(0, 0, 0);
-}
-.radio__text {
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 142%;
-	color: #1B1F2B;
 }
 /*********Checkbox**********************************************************/
 .license__label {
