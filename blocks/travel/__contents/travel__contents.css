@@ -1,0 +1,5 @@
+.travel__contents {
+		flex-wrap: wrap;
+		justify-content: center;
+		text-align: center;
+	}

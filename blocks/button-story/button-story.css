@@ -1,0 +1,14 @@
+.button-story {
+	display: flex;
+	gap: 15px;
+	align-items: center;
+	max-width: 199px;
+	font-weight: 700;
+	font-size: 23px;
+	line-height: 28px;
+	color: #FFFFFF;
+	margin: 0px 60px 60px 60px;
+	width: 100%;
+	background-color: inherit;
+	font-family: inherit;
+}

@@ -1,0 +1,5 @@
+.footer__networks {
+	gap: 20px;
+	flex-direction: row;
+	gap: 38px;
+}

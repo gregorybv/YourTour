@@ -1,0 +1,6 @@
+.age__button {
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	gap: 31px;
+}

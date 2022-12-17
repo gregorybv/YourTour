@@ -1,0 +1,14 @@
+.photo-main__options {
+	position: absolute;
+	z-index: 2;
+	display: flex;
+	flex-wrap: nowrap;
+	left: 50px;
+	top: 50px;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 16px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}

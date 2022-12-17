@@ -1,0 +1,8 @@
+.header__list {
+	display: none;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+}

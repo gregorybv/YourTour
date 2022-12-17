@@ -1,0 +1,7 @@
+.main-block__photo {
+	gap: 18px;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 30px;
+}

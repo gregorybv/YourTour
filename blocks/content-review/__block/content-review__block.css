@@ -1,0 +1,7 @@
+.content-review__block {
+	max-width: 450px;
+	flex-wrap: wrap;
+	max-width: 570px;
+	background: #F4F0E9;
+	border-radius: 50px;
+}

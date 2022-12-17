@@ -1,0 +1,13 @@
+.tour__column_greens {
+	font-size: 16px;
+	line-height: 142%;
+	width: 134px;
+	height: 47px;
+	padding: 0px;
+	color: #286562;
+	border-radius: 10px;
+	font-weight: 400;
+	/* font-size: calc(16px + 4 * (100vw / 1170)); */
+	font-size: 20px;
+	line-height: 28px;
+}

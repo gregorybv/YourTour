@@ -1,0 +1,11 @@
+.blocks-story__content{
+	border-radius: 20px;
+	height: 455px;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 1170px;
+	height: 567px;
+	border-radius: 50px;
+	transition: 300ms ease;
+	overflow: hidden;
+}

@@ -1,0 +1,7 @@
+.main-block__item {
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}

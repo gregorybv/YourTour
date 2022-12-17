@@ -1,0 +1,8 @@
+.license__label {
+	font-weight: 400;
+	/* font-size: calc(16px + 1 * (100vw / 1170)); */
+	font-size: 17px;
+	line-height: 24px;
+	letter-spacing: -0.01em;
+	color: #A6A6A6;
+}

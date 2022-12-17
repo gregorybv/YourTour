@@ -1,0 +1,7 @@
+.networks-story__text {
+	font-weight: 400;
+	/* font-size: calc(16px + 4 * (100vw / 1170)); */
+	font-size: 20px;
+	line-height: 28px;
+	color: #FFFFFF;
+}
