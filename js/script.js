@@ -10,27 +10,27 @@ allNavButtons.forEach((button) => {
 })
 
 //button checkbox
-const checkButton = document.querySelector(".checkbox__real")
+// const checkButton = document.querySelector(".checkbox__real")
 
-if (checkButton) {
-    checkButton.addEventListener("click", () => {
-        checkButton.classList.toggle("checkbox__reals")
-    })
-}
+// if (checkButton) {
+//     checkButton.addEventListener("click", () => {
+//         checkButton.classList.toggle("checkbox__reals")
+//     })
+// }
 // Переключатель radio
-const spans = document.querySelectorAll(".radio__checkbox")
-spans.forEach((span) => {
-    span.addEventListener("click", () => {
-        spans.forEach((sp) => {
-            if (sp !== span) {
-                sp.classList.remove("radio__checkboxx")
-                sp.previousElementSibling.setAttribute("checked", "false")
-            }
-        })
-        span.classList.toggle("radio__checkboxx")
-        span.previousElementSibling.setAttribute("checked", "true")
-    })
-})
+// const spans = document.querySelectorAll(".radio__checkbox")
+// spans.forEach((span) => {
+//     span.addEventListener("click", () => {
+//         spans.forEach((sp) => {
+//             if (sp !== span) {
+//                 sp.classList.remove("radio__checkboxx")
+//                 sp.previousElementSibling.setAttribute("checked", "false")
+//             }
+//         })
+//         span.classList.toggle("radio__checkboxx")
+//         span.previousElementSibling.setAttribute("checked", "true")
+//     })
+// })
 
 //Проверка заполнения телефона
 let inp = document.querySelector("#tel")
