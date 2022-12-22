@@ -1,0 +1,21 @@
+.header__subtitle {
+	max-width: 562px;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	justify-content: center;
+	flex-wrap: nowrap;
+	text-align: center;
+}
+@media (max-width: 1024px){
+	.header__subtitle {
+		max-width: 442px;
+	}
+}
+@media (max-width: 767.98px){
+	.header__subtitle {
+		font-size: 16px;
+		line-height: 142%;
+		max-width: 310px;
+	}
+}

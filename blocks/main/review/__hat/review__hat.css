@@ -1,0 +1,15 @@
+.review__hat {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 529px;
+	width: 100%;
+	padding: 0px;
+	gap: 30px;
+}
+@media (max-width: 767.98px){
+	.review__hat {
+		gap: 20px;
+	}
+}

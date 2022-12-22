@@ -1,0 +1,14 @@
+.travel__contents {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 30px;
+	padding: 0px 10px 0px 10px;
+}
+@media (max-width: 767.99px){
+	.travel__contents {
+		flex-wrap: wrap;
+		justify-content: center;
+		text-align: center;
+	}
+}

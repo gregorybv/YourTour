@@ -1,0 +1,16 @@
+.tour__radio {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	border: 2px solid var(--dark-color);
+	background-color: var(--light-color);
+	border-radius: 50%;
+}
+
+.tour__radio:after {
+	content: "";
+	position: absolute;
+	display: none;
+}

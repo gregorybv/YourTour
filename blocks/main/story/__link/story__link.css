@@ -1,0 +1,13 @@
+.story__link {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	color: var(--light-color);
+}
+.story__link:hover{
+	text-decoration: underline;
+	text-underline-offset: 6px;
+}
+.story__link:active{
+	color: var(--orange-color);
+}

@@ -1,0 +1,27 @@
+.tour__column_green {
+	padding: 15px 30px;
+	width: 235px;
+	height: 58px;
+	cursor: pointer;
+	background: var(--green-color);
+	color: var(--light-color);
+	border-radius: 10px;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+}
+@media (max-width: 767.98px){
+	.tour__column_green {
+		font-size: 16px;
+		line-height: 142%;
+		width: 134px;
+		height: 47px;
+		padding: 0px;
+	}
+}
+.tour__column_green:hover{
+	background: var(--lettuce-color);
+}
+.tour__column_green:active{
+	background: var(--lettuces-color);
+}

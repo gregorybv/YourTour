@@ -1,0 +1,23 @@
+.review__column {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 570px;
+	background: var(--grays-color);
+	border-radius: 50px;
+    flex-direction: column;
+	justify-content: space-between;
+	gap: 28px;
+	padding: 40px;
+}
+@media (max-width: 1024px){
+	.review__column {
+		max-width: 450px;
+	}
+}
+@media (max-width: 767.98px){
+	.review__column {
+		border-radius: 20px;
+        padding: 20px;
+		gap: 22px;
+	}
+}

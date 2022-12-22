@@ -1,0 +1,18 @@
+.choice__photo {
+	display: flex;
+    /* max-width: 1170px; */
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 30px;
+}
+@media (max-width: 1024px){
+	.choice__photo {
+		gap: 18px;
+	}
+}
+@media (max-width: 767.98px){
+	.choice__photo {
+		gap: 18px;
+	}
+}

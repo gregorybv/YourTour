@@ -1,0 +1,40 @@
+.tour__input {
+	width: 100%;
+	height: 68px;
+	background: var(--fon-color);
+	border-radius: 10px;
+	margin: 8px 0px 0px 0px;
+	padding-left: 20px;
+	color: var(--gray-color);
+	font-size: 20px;
+	line-height: 142%;
+}
+.tour__input:hover{
+	background: var(--grays-color);
+	cursor: pointer;
+}
+.tour__input:focus{
+	background: var(--grays-color);
+	color: var(--dark-color);
+	outline: 1px solid var(--gray-color);
+	outline-color: var(--gray-color);
+	outline-width: thin;
+}
+.tour__input:active{
+	border-color: var(--gray-color);
+	outline-color: var(--gray-color);
+	border: 1px solid var(--gray-color);
+}
+.tour__input::placeholder{
+	color: var(--gray-color);
+}
+
+@media (max-width: 767.98px){
+	.tour__input {
+		font-size: 16px;
+		line-height: 142%;
+		height: 43px;
+		padding-left: 10px;
+		margin: 9px 0px 0px 0px;
+	}
+}

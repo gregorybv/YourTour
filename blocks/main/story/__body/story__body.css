@@ -1,0 +1,13 @@
+.story__body {
+	display: flex;
+	z-index: 2;
+	flex-direction: column;
+	gap: 35px;
+	padding: 60px 0px 0px 60px;
+}
+@media (max-width: 767.98px){
+	.story__body {
+		gap: 20px;
+		padding: 30px 25px 0px 30px;
+	}
+}

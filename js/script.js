@@ -1,11 +1,11 @@
-const allNavButtons = document.querySelectorAll(".main-block__list")
+const allNavButtons = document.querySelectorAll(".choice__list")
 allNavButtons.forEach((button) => {
     button.addEventListener("click", (event) => {
         allNavButtons.forEach((button) => {
-            button.classList.remove("main-block__list_active")
+            button.classList.remove("choice__list_active")
         })
         const { target } = event
-        target.classList.add("main-block__list_active")
+        target.classList.add("choice__list_active")
     })
 })
 

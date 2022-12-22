@@ -1,0 +1,6 @@
+.tour__buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	gap: 31px;
+}

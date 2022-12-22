@@ -1,0 +1,7 @@
+.story__footer {
+	display: flex;
+	flex-direction: row;
+	z-index: 2;
+	justify-content: space-between;
+	align-items: center;
+}

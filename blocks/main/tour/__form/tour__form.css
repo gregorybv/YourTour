@@ -1,0 +1,23 @@
+.tour__form {
+	display: flex;
+	flex-direction: column;
+	background: var(--light-color);
+	padding: 70px 70px;
+	gap: 33px;
+	border-radius: 50px;
+}
+@media (max-width: 1024px){
+	.tour__form {
+		max-width: 918px;
+		padding: 60px 60px;
+		margin: auto;
+	}
+}
+@media (max-width: 767.98px){
+	.tour__form {
+		padding: 20px 20px 40px 20px;
+		border-radius: 30px;
+		margin: auto;
+		gap: 30px;
+	}
+}

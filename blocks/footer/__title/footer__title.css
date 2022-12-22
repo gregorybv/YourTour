@@ -1,0 +1,13 @@
+.footer__title {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	color: var(--gray-color);
+}
+@media (max-width: 767.98px){
+	.footer__title {
+		font-size: 16px;
+		line-height: 142%;
+		padding: 0px 20px 0px 0px;
+	}
+}

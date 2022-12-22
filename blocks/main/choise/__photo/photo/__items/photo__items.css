@@ -1,0 +1,20 @@
+.photo__items{
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.photo__items:hover
+.photo__button{
+	padding: 7px 20px 7px 20px;
+	left: 30px;
+	background: var(--green-color);
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+.photo__items:active
+.photo__button{
+	padding: 7px 20px 7px 20px;
+	left: 30px;
+	background: var(--orange-color);
+	border-radius: 50px;
+}

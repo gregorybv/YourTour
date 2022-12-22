@@ -1,0 +1,10 @@
+.story__networks {
+	display: flex;
+	gap: 35px;
+	margin: 0px 60px 60px 60px;
+}
+@media (max-width: 767.99px){
+	.story__networks {
+		display: none;
+	}
+}

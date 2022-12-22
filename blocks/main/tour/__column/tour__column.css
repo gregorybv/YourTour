@@ -1,0 +1,16 @@
+.tour__column {
+	display: flex;
+	gap: 30px;
+	width: 100%;
+}
+@media (max-width: 1024px){
+	.tour__column {
+		gap: 20px;
+	}
+}
+@media (max-width: 767.98px){
+	.tour__column {
+		flex-wrap: wrap;
+		gap: 30px;
+	}
+}

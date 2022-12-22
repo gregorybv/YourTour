@@ -1,0 +1,10 @@
+.tour__licenses {
+	display: flex;
+	align-items: flex-start;
+	column-gap: 19px;
+}
+@media (max-width: 1024px){
+	.tour__licenses {
+		column-gap: 11px;
+	}
+}

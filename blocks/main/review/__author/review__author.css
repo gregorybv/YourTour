@@ -1,0 +1,13 @@
+.review__author {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 40px 0px 0px;
+}
+	
+@media (max-width: 360px){
+	.review__author {
+		padding: 21px 0px 0px;
+		align-items: flex-end;
+	}
+}

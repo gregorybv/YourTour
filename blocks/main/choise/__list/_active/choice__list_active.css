@@ -1,0 +1,5 @@
+.choice__list_active {
+	color: var(--orange-color);
+	text-decoration: underline;
+	text-underline-offset: 6px;
+}

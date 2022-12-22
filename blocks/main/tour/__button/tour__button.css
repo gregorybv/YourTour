@@ -1,0 +1,12 @@
+.tour__button{
+	display: flex;
+	align-items:center;
+	gap: 11px;
+	padding-top: 8px;
+}
+@media (max-width: 767.98px){
+	.tour__button{
+		gap: 10px;
+		padding-top: 7px;
+	}
+}

@@ -1,0 +1,28 @@
+.header__button {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 5px 20px;
+	gap: 10px;
+	height: 34px;
+	background: var(--light-color);
+	border-radius: 10px;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 24px;
+	letter-spacing: -0.01em;
+	color: var(--dark-color);
+}
+@media (max-width: 767.98px){
+	.header__button {
+		font-size: 16px;
+	}
+}
+.header__button:hover{
+	background: var(--orange-color);
+	color: var(--light-color);
+}
+.header__button:active {
+	background: var(--yellow-color);
+	color: var(--dark-color);
+}
