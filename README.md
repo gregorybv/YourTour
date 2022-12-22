@@ -1,5 +1,5 @@
 
-Вёрстка сайта Your Tour
+Вёрстка [сайта](https://grigoriyberezin.github.io/YourTour/), посвящённого путешествиям.
 
 -   Файловая структура по БЭМ (Nested)
 -   Обнуление стилей при помощи normalize.css
