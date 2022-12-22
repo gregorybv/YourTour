@@ -4,7 +4,7 @@
 	max-width: 570px;
 	background: var(--grays-color);
 	border-radius: 50px;
-    flex-direction: column;
+  flex-direction: column;
 	justify-content: space-between;
 	gap: 28px;
 	padding: 40px;
