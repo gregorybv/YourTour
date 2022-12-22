@@ -1,21 +1,21 @@
-@import url("../variables/variables.css");
-@import url("../vendor/normalize.css");
-@import url("../blocks/container/container.css");
-@import url("../blocks/wrapper/wrapper.css");
-@import url("../blocks/title/title-h2.css");
+@import "../variables/variables.css";
+@import "../vendor/normalize.css";
+@import "../blocks/container/container.css";
+@import "../blocks/wrapper/wrapper.css";
+@import "../blocks/title/title-h2.css";
 
 /*  HEADER  */
-@import url("../blocks/header/header.css");
-@import url("../blocks/header/__content/header__content.css");
-@import url("../blocks/header/__hat/header__hat.css");
-@import url("../blocks/header/__logo/header__logo.css");
-@import url("../blocks/header/__list/header__list.css");
-@import url("../blocks/header/__link/header__link.css");
-@import url("../blocks/header/__main/header__main.css");
-@import url("../blocks/header/__title/header__title.css");
-@import url("../blocks/header/__subtitle/header__subtitle.css");
-@import url("../blocks/header/__button/header__button.css");
-@import url("../blocks/header/__img/header__img.css");
+@import "../blocks/header/header.css";
+@import "../blocks/header/__content/header__content.css";
+@import "../blocks/header/__hat/header__hat.css";
+@import "../blocks/header/__logo/header__logo.css";
+@import "../blocks/header/__list/header__list.css";
+@import "../blocks/header/__link/header__link.css";
+@import "../blocks/header/__main/header__main.css";
+@import "../blocks/header/__title/header__title.css";
+@import "../blocks/header/__subtitle/header__subtitle.css";
+@import "../blocks/header/__button/header__button.css";
+@import "../blocks/header/__img/header__img.css";
 
 /*  CHOICE  */
 @import url(../blocks/main/choise/choice.css);
