@@ -1,0 +1,122 @@
+@import url(./variables/variables.css);
+@import url(./vendor/normalize.css);
+@import url(./blocks/container/container.css);
+@import url(./blocks/wrapper/wrapper.css);
+@import url(./blocks/title/title-h2.css);
+
+/*  HEADER  */
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__content/header__content.css);
+@import url(./blocks/header/__hat/header__hat.css);
+@import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/header/__list/header__list.css);
+@import url(./blocks/header/__link/header__link.css);
+@import url(./blocks/header/__main/header__main.css);
+@import url(./blocks/header/__title/header__title.css);
+@import url(./blocks/header/__subtitle/header__subtitle.css);
+@import url(./blocks/header/__button/header__button.css);
+@import url(./blocks/header/__img/header__img.css);
+
+/*  CHOICE  */
+@import url(./blocks/main/choise/choice.css);
+@import url(./blocks/main/choise/__body/choice__body.css);
+@import url(./blocks/main/choise/__item/choice__item.css);
+@import url(./blocks/main/choise/__list/choice__list.css);
+@import url(./blocks/main/choise/__list/_active/choice__list_active.css);
+@import url(./blocks/main/choise/__photo/choice__photo.css);
+
+@import url(./blocks/main/choise/__photo/photo/__items/photo__items.css);
+@import url(./blocks/main/choise/__photo/photo/__item/photo__item.css);
+@import url(./blocks/main/choise/__photo/photo/__options/photo__options.css);
+@import url(./blocks/main/choise/__photo/photo/__title/photo__title.css);
+@import url(./blocks/main/choise/__photo/photo/__price/photo__price.css);
+@import url(./blocks/main/choise/__photo/photo/__img/photo__img.css);
+@import url(./blocks/main/choise/__photo/photo/__image/photo__image.css);
+@import url(./blocks/main/choise/__photo/photo/__button/photo__button.css);
+
+/*  TOUR  */
+@import url(./blocks/main/tour/tour.css);
+@import url(./blocks/main/tour/__hat/tour__hat.css);
+@import url(./blocks/main/tour/__subtitle/tour__subtitle.css);
+@import url(./blocks/main/tour/__form/tour__form.css);
+@import url(./blocks/main/tour/__column/tour__column.css);
+@import url(./blocks/main/tour/__column/_green/tour__column_green.css);
+@import url(./blocks/main/tour/__column/_greens/tour__column_greens.css);
+@import url(./blocks/main/tour/__item/tour__item.css);
+@import url(./blocks/main/tour/__label/tour__label.css);
+@import url(./blocks/main/tour/__input/tour__input.css);
+@import url(./blocks/main/tour/__comments/tour__comments.css);
+@import url(./blocks/main/tour/__comment/tour__comment.css);
+@import url(./blocks/main/tour/__buttons/tour__buttons.css);
+@import url(./blocks/main/tour/__button/tour__button.css);
+@import url(./blocks/main/tour/__licenses/tour__licenses.css);
+@import url(./blocks/main/tour/__labels/tour__labels.css);
+@import url(./blocks/main/tour/__labels/_input/tour__labels_input.css);
+@import url(./blocks/main/tour/__radio/tour__radio.css);
+@import url(./blocks/main/tour/__license/tour__license.css);
+@import url(./blocks/main/tour/__checkbox/tour__checkbox.css);
+
+/*  REVIEW  */
+@import url(./blocks/main/review/review.css);
+@import url(./blocks/main/review/__hat/review__hat.css);
+@import url(./blocks/main/review/__subtitle/review__subtitle.css);
+@import url(./blocks/main/review/__contents/review__contents.css);
+@import url(./blocks/main/review/__column/review__column.css);
+@import url(./blocks/main/review/__text/review__text.css);
+@import url(./blocks/main/review/__author/review__author.css);
+@import url(./blocks/main/review/__img/review__img.css);
+@import url(./blocks/main/review/__name/review__name.css);
+@import url(./blocks/main/review/__subtext/review__subtext.css);
+
+/*  GALLERY  */
+@import url(./blocks/main/gallery/gallery.css);
+@import url(./blocks/main/gallery/__hat/gallery__hat.css);
+@import url(./blocks/main/gallery/__subtitle/gallery__subtitle.css);
+@import url(./blocks/main/gallery/__block/gallery__block.css);
+@import url(./blocks/main/gallery/__block/_hidefirst/gallery__block_hidefirst.css);
+@import url(./blocks/main/gallery/__block/_hidesecond/gallery__block_hidesecond.css);
+@import url(./blocks/main/gallery/__pictures/gallery__pictures.css);
+@import url(./blocks/main/gallery/__img/gallery__img.css);
+@import url(./blocks/main/gallery/__picture/gallery__picture.css);
+@import url(./blocks/main/gallery/__image/gallery__image.css);
+
+/*  STORY  */
+@import url(./blocks/main/storys/story.css);
+@import url(./blocks/main/storys/__hat/story__hat.css);
+@import url(./blocks/main/storys/_subtitle/story__subtitle.css);
+@import url(./blocks/main/storys/__blocks/story__blocks.css);
+@import url(./blocks/main/storys/__content/story__content.css);
+@import url(./blocks/main/storys/__image/story__image.css);
+@import url(./blocks/main/storys/__body/story__body.css);
+@import url(./blocks/main/storys/__text/story__text.css);
+@import url(./blocks/main/storys/__subtext/story__subtext.css);
+@import url(./blocks/main/storys/__list/story__list.css);
+@import url(./blocks/main/storys/__footer/story__footer.css);
+@import url(./blocks/main/storys/__button/story__button.css);
+@import url(./blocks/main/storys/__img/story__img.css);
+@import url(./blocks/main/storys/__networks/story__networks.css);
+@import url(./blocks/main/storys/__link/story__link.css);
+
+/*  TRAVEL  */
+@import url(./blocks/main/travel/travel.css);
+@import url(./blocks/main/travel/__contents/travel__contents.css);
+@import url(./blocks/main/travel/__img/travel__img.css);
+@import url(./blocks/main/travel/__content/travel__content.css);
+@import url(./blocks/main/travel/__title/travel__title.css);
+@import url(./blocks/main/travel/__subtitle/travel__subtitle.css);
+@import url(./blocks/main/travel/__link/travel__link.css);
+
+/*  FOOTER  */
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__content/footer__content.css);
+@import url(./blocks/footer/__title/footer__title.css);
+@import url(./blocks/footer/__networks/footer__networks.css);
+@import url(./blocks/footer/__list/footer__list.css);
+@import url(./blocks/footer/__link/footer__link.css);
+
+
+
+
+
+
+
