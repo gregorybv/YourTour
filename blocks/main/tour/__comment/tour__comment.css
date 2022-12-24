@@ -9,6 +9,7 @@
 	outline: 0px solid var(--gray-color);;
 	outline-color: var(--gray-color);
 	outline-width: thin;
+    border-radius: 10px;
 }
 .tour__comment:hover{
 	background: var(--grays-color);
@@ -19,5 +20,6 @@
 	.tour__comment {
 		height: 132px;
 		padding: 0px 0px 90px 18px;
+        border-radius: 10px;
 	}
 }
