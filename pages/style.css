@@ -3,6 +3,7 @@
 @import url(../blocks/container/container.css);
 @import url(../blocks/wrapper/wrapper.css);
 @import url(../blocks/title/title-h2.css);
+@import url(../blocks/button/button.css);
 
 /*  HEADER  */
 @import url(../blocks/header/header.css);
@@ -18,21 +19,19 @@
 @import url(../blocks/header/__img/header__img.css);
 
 /*  CHOICE  */
-@import url(../blocks/main/choise/choice.css);
-@import url(../blocks/main/choise/__body/choice__body.css);
-@import url(../blocks/main/choise/__item/choice__item.css);
-@import url(../blocks/main/choise/__list/choice__list.css);
-@import url(../blocks/main/choise/__list/_active/choice__list_active.css);
-@import url(../blocks/main/choise/__photo/choice__photo.css);
-
-@import url(../blocks/main/choise/__photo/photo/__items/photo__items.css);
-@import url(../blocks/main/choise/__photo/photo/__item/photo__item.css);
-@import url(../blocks/main/choise/__photo/photo/__options/photo__options.css);
-@import url(../blocks/main/choise/__photo/photo/__title/photo__title.css);
-@import url(../blocks/main/choise/__photo/photo/__price/photo__price.css);
-@import url(../blocks/main/choise/__photo/photo/__img/photo__img.css);
-@import url(../blocks/main/choise/__photo/photo/__image/photo__image.css);
-@import url(../blocks/main/choise/__photo/photo/__button/photo__button.css);
+@import url(../blocks/main/choice/choice.css);
+@import url(../blocks/main/choice/__body/choice__body.css);
+@import url(../blocks/main/choice/__list/choice__list.css);
+@import url(../blocks/main/choice/__link/choice__link.css);
+@import url(../blocks/main/choice/__link/_active/choice__link_active.css);
+@import url(../blocks/main/choice/__photo/choice__photo.css);
+@import url(../blocks/main/choice/__items/choice__items.css);
+@import url(../blocks/main/choice/__options/choice__options.css);
+@import url(../blocks/main/choice/__title/choice__title.css);
+@import url(../blocks/main/choice/__price/choice__price.css);
+@import url(../blocks/main/choice/__img/choice__img.css);
+@import url(../blocks/main/choice/__image/choice__image.css);
+@import url(../blocks/main/choice/__button/choice__button.css);
 
 /*  TOUR  */
 @import url(../blocks/main/tour/tour.css);

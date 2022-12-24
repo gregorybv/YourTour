@@ -1,0 +1,15 @@
+.choice__button {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+	margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+@media (max-width: 767.98px){
+	.choice__button {
+		margin-bottom: 30px;
+        margin-left: 30px;
+	}
+}

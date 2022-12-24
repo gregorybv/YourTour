@@ -1,8 +1,0 @@
-.photo__item {
-	position: relative;
-}
-@media (max-width: 767.98px){
-	.photo__item::after{
-		border-radius: 20px;
-	}
-}

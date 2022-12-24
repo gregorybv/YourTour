@@ -1,18 +1,15 @@
-.choice__item {
+.choice__list {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: 30px;
+    list-style:none;
 }
 
 @media (max-width: 767.99px){
-	.choice__item {
+	.choice__list {
+        max-width: 290px;
 		flex-wrap: wrap;
 		gap: 10px;
-	}
-}
-@media (max-width: 767.98px){
-	.choice__item {
-		max-width: 290px;
 	}
 }

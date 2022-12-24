@@ -1,12 +1,13 @@
-.photo__title {
+.choice__title {
 	font-weight: 500;
 	font-size: 35px;
 	line-height: 43px;
 }
-@media (max-width: 360px){
-	.photo__title {
+@media (max-width: 767.98px){
+	.choice__title {
 		font-size: 23px;
 		line-height: 120%;
 		letter-spacing: 0.04em;
 	}
 }
+@media (max-width: 767.98px){}
