@@ -1,0 +1,15 @@
+.subtitle {
+	max-width: 458px;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	text-align: center;
+	color: var(--gray-color);
+}
+@media (max-width: 767.98px){
+	.subtitle {
+		max-width: 319px;
+		font-size: 16px;
+		line-height: 142%;
+	}
+}
