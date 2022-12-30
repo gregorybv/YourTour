@@ -4,7 +4,6 @@
 	padding-left: 35px;
 	margin-bottom: 12px;
 	cursor: pointer;
-	font-size: 22px;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -15,23 +14,14 @@
 	color: var(--dark-color);
 }
 
-.tour__labels:hover .tour__labels_input ~ .tour__radio {
+.tour__labels:hover .tour__hiding ~ .tour__span {
 	background-color: var(--light-color);
 }
 
-.tour__labels .tour__labels_input:checked ~ .tour__radio {
+.tour__labels .tour__hiding:checked ~ .tour__span {
 	background-color: var(--light-color);
 }
 
-.tour__labels .tour__labels_input:checked ~ .tour__radio:after {
+.tour__labels .tour__hiding:checked ~ .tour__span:after {
 	display: block;
-}
-
-.tour__labels .tour__radio:after {
-	top: 5px;
-	left: 5px;
-	width: 12px;
-	height: 12px;
-	border-radius: 50%;
-	background: var(--dark-color);
 }

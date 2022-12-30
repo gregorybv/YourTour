@@ -1,0 +1,11 @@
+.tour__button_lettuce {
+	background: var(--lights-color);
+	color: var(--green-color);
+}
+
+.tour__button_lettuce:hover{
+	background: var(--blond-color);
+}
+.tour__button_lettuce:active{
+	background: var(--blonds-color);
+}

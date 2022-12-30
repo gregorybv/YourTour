@@ -4,6 +4,7 @@
 @import url(../blocks/wrapper/wrapper.css);
 @import url(../blocks/title/title-h2.css);
 @import url(../blocks/button/button.css);
+@import url(../blocks/buttons/buttons.css);
 @import url(../blocks/subtitle/subtitle.css);
 
 
@@ -27,7 +28,7 @@
 @import url(../blocks/main/choice/__link/choice__link.css);
 @import url(../blocks/main/choice/__link/_active/choice__link_active.css);
 @import url(../blocks/main/choice/__photo/choice__photo.css);
-@import url(../blocks/main/choice/__items/choice__items.css);
+@import url(../blocks/main/choice/__item/choice__item.css);
 @import url(../blocks/main/choice/__options/choice__options.css);
 @import url(../blocks/main/choice/__title/choice__title.css);
 @import url(../blocks/main/choice/__price/choice__price.css);
@@ -41,19 +42,21 @@
 @import url(../blocks/main/tour/__subtitle/tour__subtitle.css);
 @import url(../blocks/main/tour/__form/tour__form.css);
 @import url(../blocks/main/tour/__column/tour__column.css);
-@import url(../blocks/main/tour/__column/_green/tour__column_green.css);
-@import url(../blocks/main/tour/__column/_greens/tour__column_greens.css);
+@import url(../blocks/main/tour/__button/_green/tour__button_green.css);
+@import url(../blocks/main/tour/__button/_lettuce/tour__button_lettuce.css);
 @import url(../blocks/main/tour/__item/tour__item.css);
 @import url(../blocks/main/tour/__label/tour__label.css);
 @import url(../blocks/main/tour/__input/tour__input.css);
 @import url(../blocks/main/tour/__comments/tour__comments.css);
 @import url(../blocks/main/tour/__comment/tour__comment.css);
-@import url(../blocks/main/tour/__buttons/tour__buttons.css);
-@import url(../blocks/main/tour/__button/tour__button.css);
-@import url(../blocks/main/tour/__licenses/tour__licenses.css);
-@import url(../blocks/main/tour/__labels/tour__labels.css);
-@import url(../blocks/main/tour/__labels/_input/tour__labels_input.css);
+@import url(../blocks/main/tour/__radios/tour__radios.css);
 @import url(../blocks/main/tour/__radio/tour__radio.css);
+@import url(../blocks/main/tour/__licenses/tour__licenses.css);
+@import url(../blocks/main/tour/__button/tour__button.css);
+@import url(../blocks/main/tour/__labels/tour__labels.css);
+@import url(../blocks/main/tour/__hiding/tour__hiding.css);
+@import url(../blocks/main/tour/__license/_linput/tour__license_input.css);
+@import url(../blocks/main/tour/__span/tour__span.css);
 @import url(../blocks/main/tour/__license/tour__license.css);
 @import url(../blocks/main/tour/__checkbox/tour__checkbox.css);
 
@@ -74,8 +77,6 @@
 @import url(../blocks/main/gallery/__hat/gallery__hat.css);
 @import url(../blocks/main/gallery/__subtitle/gallery__subtitle.css);
 @import url(../blocks/main/gallery/__block/gallery__block.css);
-@import url(../blocks/main/gallery/__block/_hidefirst/gallery__block_hidefirst.css);
-@import url(../blocks/main/gallery/__block/_hidesecond/gallery__block_hidesecond.css);
 @import url(../blocks/main/gallery/__pictures/gallery__pictures.css);
 @import url(../blocks/main/gallery/__img/gallery__img.css);
 @import url(../blocks/main/gallery/__picture/gallery__picture.css);
@@ -94,7 +95,7 @@
 @import url(../blocks/main/storys/__list/story__list.css);
 @import url(../blocks/main/storys/__footer/story__footer.css);
 @import url(../blocks/main/storys/__button/story__button.css);
-@import url(../blocks/main/storys/__img/story__img.css);
+@import url(../blocks/main/storys/__icon/story__icon.css);
 @import url(../blocks/main/storys/__networks/story__networks.css);
 @import url(../blocks/main/storys/__link/story__link.css);
 
@@ -112,7 +113,7 @@
 @import url(../blocks/footer/__content/footer__content.css);
 @import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/footer/__networks/footer__networks.css);
-@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__item/footer__item.css);
 @import url(../blocks/footer/__link/footer__link.css);
 
 

@@ -11,7 +11,6 @@
 }
 .tour__input:hover{
 	background: var(--grays-color);
-	cursor: pointer;
 }
 .tour__input:focus{
 	background: var(--grays-color);

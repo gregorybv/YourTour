@@ -1,12 +1,19 @@
-.tour__button{
+.tour__button {
 	display: flex;
-	align-items:center;
-	gap: 11px;
-	padding-top: 8px;
+	gap: 30px;
+	width: 100%;
+    font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+}
+@media (max-width: 1024px){
+	.tour__button {
+		gap: 20px;
+	}
 }
 @media (max-width: 767.98px){
-	.tour__button{
-		gap: 10px;
-		padding-top: 7px;
+	.tour__button {
+		flex-wrap: wrap;
+		gap: 30px;
 	}
 }

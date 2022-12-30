@@ -6,4 +6,5 @@
 	width: 25px;
 	background-color: var(--light-color);
 	border: 2px solid var(--dark-color);
+    border-radius: 5px;
 }

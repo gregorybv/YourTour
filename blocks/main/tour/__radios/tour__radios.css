@@ -1,6 +1,6 @@
-.tour__buttons {
+.tour__radios {
 	display: flex;
 	flex-direction: row;
 	justify-content: start;
-	gap: 31px;
+	gap: 35px;
 }

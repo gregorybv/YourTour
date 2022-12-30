@@ -1,16 +1,12 @@
-.tour__radio {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 25px;
-	width: 25px;
-	border: 2px solid var(--dark-color);
-	background-color: var(--light-color);
-	border-radius: 50%;
+.tour__radio{
+	display: flex;
+	align-items:center;
+	gap: 11px;
+	padding-top: 8px;
 }
-
-.tour__radio:after {
-	content: "";
-	position: absolute;
-	display: none;
+@media (max-width: 767.98px){
+	.tour__radio{
+		gap: 10px;
+		padding-top: 7px;
+	}
 }

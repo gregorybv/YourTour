@@ -1,11 +1,12 @@
-.footer__list {
+.footer__item {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	gap: 10px;
+    list-style-type: none;
 }
 @media (max-width: 767.98px){
-	.footer__list {
+	.footer__item {
 		gap: 6.54px;
 	}
 }
