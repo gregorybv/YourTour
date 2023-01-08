@@ -1,12 +1,13 @@
 .story__subtext {
-	max-width: 554px;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 28px;	
+  max-width: 554px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
 }
-@media (max-width: 767.98px){
-	.story__subtext {
-		font-size: 16px;
-		line-height: 146%;
-	}
+
+@media (max-width: 767.98px) {
+  .story__subtext {
+    font-size: 16px;
+    line-height: 146%;
+  }
 }

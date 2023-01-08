@@ -1,5 +1,5 @@
 .choice__link_active {
-	color: var(--orange-color);
-	text-decoration: underline;
-	text-underline-offset: 6px;
+  color: var(--orange-color);
+  text-decoration: underline;
+  text-underline-offset: 6px;
 }

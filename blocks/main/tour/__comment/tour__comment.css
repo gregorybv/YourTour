@@ -1,26 +1,29 @@
 .tour__comment {
-	background: var(--fon-color);
-	border-radius: 10px;
-    outline: 0px solid var(--gray-color);
-    padding: 20px;
-    margin: 8px 0px 0px 0px;
-	height: 146px;
-    width: 100%;
-	/* text-align:start; */
-	/* padding: 0px 0px 118px 18px; */
+  background: var(--fon-color);
+  border-radius: 10px;
+  outline: 0px solid var(--gray-color);
+  padding: 20px;
+  margin: 8px 0px 0px 0px;
+  height: 146px;
+  width: 100%;
+  /* text-align:start; */
+  /* padding: 0px 0px 118px 18px; */
 }
-.tour__comment:focus{
-	outline: 0px solid var(--gray-color);;
-	outline-color: var(--gray-color);
-	outline-width: thin;
+
+.tour__comment:focus {
+  outline: 0px solid var(--gray-color);;
+  outline-color: var(--gray-color);
+  outline-width: thin;
+  border-radius: 10px;
+}
+
+.tour__comment:hover {
+  background: var(--grays-color);
+  outline-color: var(--gray-color);
+}
+
+@media (max-width: 767.98px) {
+  .tour__comment {
     border-radius: 10px;
-}
-.tour__comment:hover{
-	background: var(--grays-color);
-	outline-color: var(--gray-color);
-}
-@media (max-width: 767.98px){
-	.tour__comment {
-        border-radius: 10px;
-	}
+  }
 }

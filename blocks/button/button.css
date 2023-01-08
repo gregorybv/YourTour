@@ -1,20 +1,21 @@
 .button {
-    display: flex;
-	gap: 15px;
-    align-items: center;
-    max-width: 199px;
-	font-weight: 700;
-	font-size: 23px;
-    line-height: 28px;
-    color: var(--light-color);
-    width: 100%;
-	background-color: inherit;
-	font-family: inherit;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  max-width: 199px;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 28px;
+  color: var(--light-color);
+  width: 100%;
+  background-color: inherit;
+  font-family: inherit;
 }
-@media (max-width: 767.98px){
-	.button {
-		max-width: 160px;
-		font-size: 16px;
-		line-height: 142%;
-	}
+
+@media (max-width: 767.98px) {
+  .button {
+    max-width: 160px;
+    font-size: 16px;
+    line-height: 142%;
+  }
 }

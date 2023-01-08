@@ -1,11 +1,12 @@
 .tour__licenses {
-	display: flex;
-	align-items: flex-start;
-	column-gap: 19px;
-    margin: -12px 0px 0px 0px;
+  display: flex;
+  align-items: flex-start;
+  column-gap: 19px;
+  margin: -12px 0px 0px 0px;
 }
-@media (max-width: 1024px){
-	.tour__licenses {
-		column-gap: 11px;
-	}
+
+@media (max-width: 1024px) {
+  .tour__licenses {
+    column-gap: 11px;
+  }
 }

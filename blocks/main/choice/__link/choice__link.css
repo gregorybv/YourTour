@@ -1,17 +1,19 @@
 .choice__link {
-	font-weight: 700;
-	font-size: 23px;
-	line-height: 122%;
-	color: var(--dark-color);
-    background: var(--fon-color);
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 122%;
+  color: var(--dark-color);
+  background: var(--fon-color);
 }
-@media (max-width: 767.98px){
-	.choice__link {
-		font-size: 16px;
-	    line-height: 142%;
-	}
+
+@media (max-width: 767.98px) {
+  .choice__link {
+    font-size: 16px;
+    line-height: 142%;
+  }
 }
-.choice__link:hover{
-	text-decoration: underline;
-	text-underline-offset: 6px;
+
+.choice__link:hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
 }

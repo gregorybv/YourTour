@@ -1,12 +1,13 @@
 .review__name {
-	font-weight: 500;
-	font-size: 35px;
-	line-height: 122%;
-	color: var(--dark-color);
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 122%;
+  color: var(--dark-color);
 }
-@media (max-width: 767.98px){
-	.review__name {
-		font-size: 23px;
-		line-height: 120%;
-	}
+
+@media (max-width: 767.98px) {
+  .review__name {
+    font-size: 23px;
+    line-height: 120%;
+  }
 }

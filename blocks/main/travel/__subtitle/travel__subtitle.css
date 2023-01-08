@@ -1,13 +1,14 @@
 .travel__subtitle {
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 28px;
-	color: var(--gray-color);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--gray-color);
 }
-@media (max-width: 767.98px){
-	.travel__subtitle {
-		max-width: 291px;
-		font-size: 16px;
-		line-height: 142%;
-	}
-}	
+
+@media (max-width: 767.98px) {
+  .travel__subtitle {
+    max-width: 291px;
+    font-size: 16px;
+    line-height: 142%;
+  }
+}

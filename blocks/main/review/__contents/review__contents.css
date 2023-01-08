@@ -1,19 +1,22 @@
 .review__contents {
-	display: flex;
-	gap: 30px;
-	justify-content: center;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
 }
-@media (max-width: 1024px){
-	.review__contents {
-		gap: 18px;
-	}
+
+@media (max-width: 1024px) {
+  .review__contents {
+    gap: 18px;
+  }
 }
-@media (max-width: 767.99px){
-	.review__contents {
-		flex-wrap: wrap;
-		gap: 18px;
-	}
-	.review__main {
-		display: block;
-	}
+
+@media (max-width: 767.99px) {
+  .review__contents {
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+
+  .review__main {
+    display: block;
+  }
 }

@@ -1,6 +1,6 @@
 .tour__radios {
-	display: flex;
-	flex-direction: row;
-	justify-content: start;
-	gap: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 35px;
 }

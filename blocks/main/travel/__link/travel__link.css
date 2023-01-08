@@ -1,9 +1,11 @@
 .travel__link {
-	color: var(--dark-color);
+  color: var(--dark-color);
 }
-.travel__link:hover{
-	text-decoration: underline;
+
+.travel__link:hover {
+  text-decoration: underline;
 }
-.travel__link:active{
-	color: var(--green-color);
+
+.travel__link:active {
+  color: var(--green-color);
 }

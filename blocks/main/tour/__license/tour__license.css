@@ -1,56 +1,58 @@
 .tour__license {
-	display: block;
-	position: relative;
-	padding-left: 35px;
-	margin-bottom: 12px;
-	cursor: pointer;
-	font-size: 22px;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-
-
 .tour__checkbox:after {
-	content: "";
-	position: absolute;
-	display: none;
+  content: "";
+  position: absolute;
+  display: none;
 }
 
 .tour__license .tour__checkbox:after {
-	left: 9px;
-	top: 5px;
-	width: 5px;
-	height: 10px;
-	border: solid var(--dark-color);
-	border-width: 0 3px 3px 0;
-	-webkit-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	transform: rotate(45deg);
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid var(--dark-color);
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .tour__license {
-	font-weight: 400;
-	font-size: 17px;
-	line-height: 24px;
-	letter-spacing: -0.01em;
-	color: var(--gray-color);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: var(--gray-color);
 }
-@media (max-width: 767.98px){
-	.tour__license {
-		font-size: 16px;
-		line-height: 142%;
-	}
+
+@media (max-width: 767.98px) {
+  .tour__license {
+    font-size: 16px;
+    line-height: 142%;
+  }
 }
-.tour__license .tour__license_link{
-	color: var(--dark-color);
-	cursor: pointer;
+
+.tour__license .tour__license_link {
+  color: var(--dark-color);
+  cursor: pointer;
 }
-.tour__license .tour__license_link:hover{
-	text-decoration: underline;
+
+.tour__license .tour__license_link:hover {
+  text-decoration: underline;
 }
-.tour__license .tour__license_link:active{
-	color: var(--green-color);
+
+.tour__license .tour__license_link:active {
+  color: var(--green-color);
 }

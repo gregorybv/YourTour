@@ -1,14 +1,15 @@
 .travel__title {
-	font-weight: 500;
-	font-size: 35px;
-	line-height: 43px;
-	color: var(--dark-color);
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 43px;
+  color: var(--dark-color);
 }
-@media (max-width: 767.98px){
-	.travel__title {
-		max-width: 291px;
-		font-size: 23px;
-		line-height: 120%;
-		letter-spacing: 0.04em;
-	}
+
+@media (max-width: 767.98px) {
+  .travel__title {
+    max-width: 291px;
+    font-size: 23px;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+  }
 }

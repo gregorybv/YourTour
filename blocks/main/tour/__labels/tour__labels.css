@@ -1,27 +1,27 @@
 .tour__labels {
-	display: block;
-	position: relative;
-	padding-left: 35px;
-	margin-bottom: 12px;
-	cursor: pointer;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 142%;
-	color: var(--dark-color);
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 142%;
+  color: var(--dark-color);
 }
 
 .tour__labels:hover .tour__hiding ~ .tour__span {
-	background-color: var(--light-color);
+  background-color: var(--light-color);
 }
 
 .tour__labels .tour__hiding:checked ~ .tour__span {
-	background-color: var(--light-color);
+  background-color: var(--light-color);
 }
 
 .tour__labels .tour__hiding:checked ~ .tour__span:after {
-	display: block;
+  display: block;
 }

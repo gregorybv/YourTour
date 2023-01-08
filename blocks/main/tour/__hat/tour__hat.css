@@ -1,15 +1,16 @@
-.tour__hat  {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding: 0px;
-	gap: 30px;
-	margin-bottom: 100px;
+.tour__hat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+  margin-bottom: 100px;
 }
-@media (max-width: 767.98px){
-	.tour__hat {
-		gap: 20px;
-		margin-bottom:40px;
-	}
+
+@media (max-width: 767.98px) {
+  .tour__hat {
+    gap: 20px;
+    margin-bottom: 40px;
+  }
 }

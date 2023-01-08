@@ -1,13 +1,14 @@
 .story__hat {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 30px;
-	margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 100px;
 }
-@media (max-width: 767.98px){
-	.story__hat {
-		gap: 20px;
-		margin-bottom: 50px;
-	}
+
+@media (max-width: 767.98px) {
+  .story__hat {
+    gap: 20px;
+    margin-bottom: 50px;
+  }
 }

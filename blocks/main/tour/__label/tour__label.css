@@ -1,12 +1,13 @@
 .tour__label {
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 28px;
-	color: var(--dark-color);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--dark-color);
 }
-@media (max-width: 767.98px){
-	.tour__label {
-		font-size: 16px;
-		line-height: 142%;
-	}
+
+@media (max-width: 767.98px) {
+  .tour__label {
+    font-size: 16px;
+    line-height: 142%;
+  }
 }

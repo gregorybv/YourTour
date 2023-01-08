@@ -1,8 +1,9 @@
 .story {
-	margin-top: 135px;
+  margin-top: 135px;
 }
-@media (max-width: 767.98px){
-	.story {
-		margin-top: 75px;
-	}
+
+@media (max-width: 767.98px) {
+  .story {
+    margin-top: 75px;
+  }
 }
