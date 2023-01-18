@@ -76,11 +76,10 @@
 @import url(../blocks/main/gallery/__hat/gallery__hat.css);
 @import url(../blocks/main/gallery/__subtitle/gallery__subtitle.css);
 @import url(../blocks/main/gallery/__block/gallery__block.css);
-@import url(../blocks/main/gallery/__blocks/gallery__blocks.css);
-@import url(../blocks/main/gallery/__pictures/gallery__pictures.css);
-@import url(../blocks/main/gallery/__img/gallery__img.css);
-@import url(../blocks/main/gallery/__picture/gallery__picture.css);
+@import url(../blocks/main/gallery/__block/_four/gallery__block_four.css);
+@import url(../blocks/main/gallery/__block/_five/gallery__block_five.css);
 @import url(../blocks/main/gallery/__image/gallery__image.css);
+@import url(../blocks/main/gallery/__image/_small/gallery__image_smile.css);
 
 /*  STORY  */
 @import url(../blocks/main/storys/story.css);
