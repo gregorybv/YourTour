@@ -38,6 +38,7 @@
 /*  TOUR  */
 @import url(../blocks/main/tour/tour.css);
 @import url(../blocks/main/tour/__hat/tour__hat.css);
+@import url(../blocks/main/tour/__action/tour__action.css);
 @import url(../blocks/main/tour/__subtitle/tour__subtitle.css);
 @import url(../blocks/main/tour/__form/tour__form.css);
 @import url(../blocks/main/tour/__column/tour__column.css);
@@ -54,7 +55,6 @@
 @import url(../blocks/main/tour/__button/tour__button.css);
 @import url(../blocks/main/tour/__labels/tour__labels.css);
 @import url(../blocks/main/tour/__labels/_hiding/tour__labels_hiding.css);
-@import url(../blocks/main/tour/__hiding/tour__hiding.css);
 @import url(../blocks/main/tour/__license/_linput/tour__license_input.css);
 @import url(../blocks/main/tour/__span/tour__span.css);
 @import url(../blocks/main/tour/__license/tour__license.css);

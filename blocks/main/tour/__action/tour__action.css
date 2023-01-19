@@ -1,0 +1,19 @@
+.tour__license .tour__action {
+  display: none;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.tour__license:hover .tour__action ~ .tour__checkbox {
+  background-color: var(--light-color);
+}
+
+.tour__license .tour__action:checked ~ .tour__checkbox {
+  background-color: var(--light-color);
+}
+
+.tour__license .tour__action:checked ~ .tour__checkbox:after {
+  display: block;
+}
