@@ -14,3 +14,8 @@
   text-decoration: underline;
   text-underline-offset: 6px;
 }
+
+.header__link_scroll {
+  mix-blend-mode: difference;
+  filter: invert(.7);
+}

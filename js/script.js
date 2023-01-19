@@ -18,3 +18,12 @@ inp.addEventListener("focus", (_) => {
 inp.addEventListener("keypress", (e) => {
   if (!/\d/.test(e.key)) e.preventDefault();
 });
+
+// Scroll
+
+document.body.onscroll = function() {
+  document.querySelector('.header__list').classList.add('header__link_scroll')
+  document.querySelector('.header__link_phone').classList.add('header__link_scroll')
+  document.querySelector('.header__logo').classList.add('header__link_scroll')
+  document.querySelector('.header__hat').classList.add('header__hat_scroll')
+}

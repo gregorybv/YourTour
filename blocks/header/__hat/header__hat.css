@@ -1,13 +1,14 @@
 .header__hat {
-  max-width: 1168px;
+  position: fixed;
+  overflow: hidden;
+  z-index: 3;
+  top: 0;
   width: 100%;
-  padding: 0px 15px 0px 15px;
+  padding: 0px 68px 0px 68px;
   min-height: 88px;
   display: flex;
-  column-gap: 20px;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 119px;
 }
 
 @media (max-width: 1024px) {
@@ -30,4 +31,9 @@
     justify-content: space-between;
     gap: 6px;
   }
+}
+
+.header__hat_scroll {
+  background: rgba(243, 239, 232, 0.6);
+  backdrop-filter: blur(27px);
 }

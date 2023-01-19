@@ -20,17 +20,17 @@
 
 
 @media (max-width: 1024px) {
-  .gallery__blocks .gallery__block:nth-child(1) .block_four-li:nth-child(2),
-  .gallery__blocks .gallery__block:nth-child(2) .block_four-li:nth-child(3),
-  .gallery__blocks .gallery__block:nth-child(3) .block_four-li:nth-child(4) {
+  .gallery__blocks .gallery__block:nth-child(1) .block__li:nth-child(2),
+  .gallery__blocks .gallery__block:nth-child(2) .block__li:nth-child(3),
+  .gallery__blocks .gallery__block:nth-child(3) .block__li:nth-child(4) {
     display: none;
   }
 }
 
 @media (max-width: 915px) {
-  .gallery__blocks .gallery__block:nth-child(1) .block_four-li:nth-child(3),
-  .gallery__blocks .gallery__block:nth-child(2) .block_four-li:nth-child(2),
-  .gallery__blocks .gallery__block:nth-child(3) .block_four-li:nth-child(3) {
+  .gallery__blocks .gallery__block:nth-child(1) .block__li:nth-child(3),
+  .gallery__blocks .gallery__block:nth-child(2) .block__li:nth-child(2),
+  .gallery__blocks .gallery__block:nth-child(3) .block__li:nth-child(3) {
     display: none;
   }
 }

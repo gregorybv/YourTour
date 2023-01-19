@@ -55,15 +55,15 @@
   }
 }
 
-.tour__license .tour__license_link {
+.tour__license .license_link {
   color: var(--dark-color);
   cursor: pointer;
 }
 
-.tour__license .tour__license_link:hover {
+.tour__license .license_link:hover {
   text-decoration: underline;
 }
 
-.tour__license .tour__license_link:active {
+.tour__license .license_link:active {
   color: var(--green-color);
 }
