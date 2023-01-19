@@ -1,12 +1,12 @@
-.tour__button_green {
+.button_green {
   background: var(--green-color);
   color: var(--light-color);
 }
 
-.tour__button_green:hover {
+.button_green:hover {
   background: var(--lettuce-color);
 }
 
-.tour__button_green:active {
+.button_green:active {
   background: var(--lettuces-color);
 }
