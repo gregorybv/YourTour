@@ -1,7 +1,7 @@
 .tour__input {
   width: 100%;
   height: 68px;
-  background: var(--fon-color);
+  background-color: var(--fon-color);
   border-radius: 10px;
   margin: 8px 0px 0px 0px;
   padding-left: 20px;
@@ -11,7 +11,7 @@
 }
 
 .tour__input:hover {
-  background: var(--grays-color);
+  background-color: var(--grays-color);
 }
 
 .tour__input:focus {
