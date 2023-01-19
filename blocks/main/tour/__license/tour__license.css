@@ -1,7 +1,10 @@
 .tour__license {
-  display: block;
+  /* display: block; */
+  display: flex;
   position: relative;
-  padding-left: 35px;
+  gap: 19px;
+  width: 100%;
+  /* padding-left: 35px; */
   margin-bottom: 12px;
   cursor: pointer;
   font-size: 22px;
@@ -18,7 +21,7 @@
 }
 
 .tour__license .tour__checkbox:after {
-  left: 9px;
+  left: 11px;
   top: 5px;
   width: 5px;
   height: 10px;
@@ -29,6 +32,13 @@
   transform: rotate(45deg);
 }
 
+@media (max-width: 915px){
+  .tour__license .tour__checkbox:after {
+    left: 11px;
+  top: 5px;
+  }
+}
+
 .tour__license {
   font-weight: 400;
   font-size: 17px;
@@ -37,10 +47,11 @@
   color: var(--gray-color);
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 915px) {
   .tour__license {
     font-size: 16px;
     line-height: 142%;
+    gap: 10px;
   }
 }
 

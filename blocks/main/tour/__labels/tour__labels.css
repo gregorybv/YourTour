@@ -14,14 +14,6 @@
   color: var(--dark-color);
 }
 
-.tour__labels:hover .tour__hiding ~ .tour__span {
-  background-color: var(--light-color);
-}
-
-.tour__labels .tour__hiding:checked ~ .tour__span {
-  background-color: var(--light-color);
-}
-
-.tour__labels .tour__hiding:checked ~ .tour__span:after {
+.tour__labels .tour__labels_hiding:checked ~ .tour__span:after {
   display: block;
 }

@@ -1,10 +1,10 @@
 .tour__checkbox {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
+  display: block;
+  max-height: 25px;
+  max-width: 25px;
+  width: 100%;
   background-color: var(--light-color);
   border: 2px solid var(--dark-color);
   border-radius: 5px;
 }
+

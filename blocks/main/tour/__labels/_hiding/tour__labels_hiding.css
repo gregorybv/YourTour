@@ -1,0 +1,6 @@
+.tour__labels_hiding {
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
