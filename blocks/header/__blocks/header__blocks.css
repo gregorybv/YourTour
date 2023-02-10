@@ -1,0 +1,14 @@
+.header__blocks{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  overflow: hidden;
+  z-index: 4;
+  width: 100%;
+
+}
+
+.header__blocks_scroll {
+  background: rgba(243, 239, 232, 0.6);
+  backdrop-filter: blur(27px);
+}

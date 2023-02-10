@@ -4,7 +4,6 @@
 @import url(../blocks/wrapper/wrapper.css);
 @import url(../blocks/title/title-h2.css);
 @import url(../blocks/button/button.css);
-@import url(../blocks/buttons/buttons.css);
 @import url(../blocks/subtitle/subtitle.css);
 @import url(../blocks/select/select.css);
 
@@ -20,6 +19,7 @@
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__button/header__button.css);
 @import url(../blocks/header/__img/header__img.css);
+@import url(../blocks/header/__blocks/header__blocks.css);
 
 /*  CHOICE  */
 @import url(../blocks/main/choice/choice.css);
@@ -78,6 +78,7 @@
 @import url(../blocks/main/gallery/__subtitle/gallery__subtitle.css);
 @import url(../blocks/main/gallery/__blocks/gallery__blocks.css);
 @import url(../blocks/main/gallery/block/gallery__block.css);
+@import url(../blocks/main/gallery/block/_item/gallery__block_item.css);
 @import url(../blocks/main/gallery/__image/gallery__image.css);
 @import url(../blocks/main/gallery/__image/_small/gallery__image_smile.css);
 

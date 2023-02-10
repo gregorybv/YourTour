@@ -1,6 +1,8 @@
 .header__logo {
   max-width: 181.84px;
   width: 100%;
+
+
 }
 
 @media (max-width: 767.98px) {
@@ -8,5 +10,9 @@
     max-width: 133px;
     width: 100%;
   }
+}
+
+.header__logo_scroll{
+  filter: invert(1);
 }
 

@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-/* @media (max-width: 1199.98px) {
+@media (max-width: 1199.98px) {
 	[class*="__container"]{
 		max-width: 1024px;
 	}
@@ -17,4 +17,4 @@
 	[class*="__container"]{
 		max-width: none;
 	}
-} */
+}

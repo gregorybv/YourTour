@@ -1,6 +1,12 @@
 .button_green {
   background: var(--green-color);
-  color: var(--light-color);
+  display: block;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .button_green:hover {

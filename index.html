@@ -21,31 +21,33 @@
 <div class="wrapper">
   <header class="header">
     <div class="header__content">
-      <div class="header__hat">
-        <img
-          class="header__logo"
-          src="./img/header/YourTour.png"
-          alt="YourTour"
-        />
-        <nav class="header__menu">
-          <ul class="header__list">
-            <li>
-              <a href="#tour" class="header__link">Туры</a>
-            </li>
-            <li>
-              <a href="#creation" class="header__link">Создать тур</a>
-            </li>
-            <li>
-              <a href="#review" class="header__link">Отзывы</a>
-            </li>
-            <li>
-              <a href="#stories" class="header__link">Истории</a>
-            </li>
-          </ul>
-        </nav>
-        <a href="tel:+7 999 999 99 99" class="header__link header__link_phone"
-        >+7 999 999 99 99</a
-        >
+      <div class="header__blocks">
+        <div class="header__hat">
+          <img
+            class="header__logo"
+            src="./img/header/YourTour.png"
+            alt="YourTour"
+          />
+          <nav class="header__menu">
+            <ul class="header__list">
+              <li>
+                <a href="#tour" class="header__link">Туры</a>
+              </li>
+              <li>
+                <a href="#creation" class="header__link">Создать тур</a>
+              </li>
+              <li>
+                <a href="#review" class="header__link">Отзывы</a>
+              </li>
+              <li>
+                <a href="#stories" class="header__link">Истории</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="tel:+7 999 999 99 99" class="header__link header__link_phone"
+          >+7 999 999 99 99</a
+          >
+        </div>
       </div>
       <div class="header__main">
         <h1 class="header__title">Идеальные путешествия существуют</h1>
@@ -313,7 +315,7 @@
                   Да
                   <input
                     type="radio"
-                    class="tour__labels_hiding"
+                    class="tour__labels tour__labels_hiding"
                     name="tour__radio"
                     value="yes"
                   />
@@ -325,7 +327,7 @@
                   Нет
                   <input
                     type="radio"
-                    class="tour__labels_hiding"
+                    class="tour__labels tour__labels_hiding"
                     name="tour__radio"
                     value="no"
                   />
@@ -338,17 +340,17 @@
             <label class="tour__license">
               <input type="checkbox" class="tour__action"/>
               <span class="tour__checkbox"></span>
-              <div>Нажимая кнопку, я принимаю условия
+              <span>Нажимая кнопку, я принимаю условия
                 <a href="#" class="license_link"
                 >Лицензионного договора</a
-                ></div>
+                ></span>
             </label>
           </div>
           <div class="tour__button">
-            <button type="submit" class="button_green buttons">
+            <button type="submit" class="button_green button">
               Найти тур
             </button>
-            <button type="reset" class="button_lettuce buttons">
+            <button type="reset" class="button_lettuce button">
               Сбросить
             </button>
           </div>
@@ -424,28 +426,28 @@
       </div>
       <nav class="gallery__blocks">
         <ul class="gallery__block">
-          <li class="block__li">
+          <li class="gallery__block_item">
             <img
               class="gallery__image"
               src="./img/block_5/photo-1.jpg"
               alt="Gallery"
             />
           </li>
-          <li class="block__li">
+          <li class="gallery__block_item">
             <img
               class="gallery__image"
               src="./img/block_5/photo-2.jpg"
               alt="Gallery"
             />
           </li>
-          <li class="block__li">
+          <li class="gallery__block_item">
             <img
               class="gallery__image"
               src="./img/block_5/photo-3.jpg"
               alt="Gallery"
             />
           </li>
-          <li class="block__li">
+          <li class="gallery__block_item">
             <img
               class="gallery__image"
               src="./img/block_5/photo-4.jpg"
@@ -454,35 +456,35 @@
           </li>
         </ul>
         <ul class="gallery__block">
-          <li class="block__li">
+          <li class="gallery__block_item">
             <img
               class="gallery__image_small"
               src="./img/block_5/photo-5.jpg"
               alt="Gallery"
             />
           </li>
-          <li class="block__li">
+          <li class="gallery__block_item">
             <img
               class="gallery__image_small"
               src="./img/block_5/photo-6.jpg"
               alt="Gallery"
             />
           </li>
-          <li class="block__li">
+          <li class="gallery__block_item">
             <img
               class="gallery__image_small"
               src="./img/block_5/photo-7.jpg"
               alt="Gallery"
             />
           </li>
-          <li class="block__li">
+          <li class="gallery__block_item">
             <img
               class="gallery__image_small"
               src="./img/block_5/photo-8.jpg"
               alt="Gallery"
             />
           </li>
-          <li class="block__li">
+          <li class="gallery__block_item">
             <img
               class="gallery__image_small"
               src="./img/block_5/photo-9.jpg"
@@ -491,28 +493,28 @@
           </li>
         </ul>
         <ul class="gallery__block">
-          <li class="block__li">
+          <li class="gallery__block_item">
             <img
               class="gallery__image"
               src="./img/block_5/photo-10.jpg"
               alt="Gallery"
             />
           </li>
-          <li class="block__li">
+          <li class="gallery__block_item">
             <img
               class="gallery__image"
               src="./img/block_5/photo-11.jpg"
               alt="Gallery"
             />
           </li>
-          <li class="block__li">
+          <li class="gallery__block_item">
             <img
               class="gallery__image"
               src="./img/block_5/photo-12.jpg"
               alt="Gallery"
             />
           </li>
-          <li class="block__li">
+          <li class="gallery__block_item">
             <img
               class="gallery__image"
               src="./img/block_5/photo-13.jpg"

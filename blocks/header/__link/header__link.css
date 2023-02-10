@@ -16,6 +16,5 @@
 }
 
 .header__link_scroll {
-  mix-blend-mode: difference;
-  filter: invert(.7);
+  color: #000000;
 }
