@@ -4,8 +4,8 @@
   outline: 0px solid var(--gray-color);
   padding: 20px;
   margin: 8px 0px 0px 0px;
-  height: 146px;
-  width: 100%;
+  max-height: 146px;
+  max-width: 100%;
   /* text-align:start; */
   /* padding: 0px 0px 118px 18px; */
 }
