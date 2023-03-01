@@ -1,6 +1,9 @@
-const rules = {
-  required: true,
-  email: true
-};
+const email = document.querySelector("email");
 
-const result = approve.value('user@domain.com', rules);
+email.addEventListener("input", function (event) {
+  if (email.validity.typeMismatch) {
+    email.setCustomValidity("I am expecting an e-mail address!");
+  } else {
+    email.setCustomValidity("");
+  }
+});
