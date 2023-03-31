@@ -11,6 +11,7 @@
 }
 
 @media (max-width: 767.98px) {
+  
   .story__image {
     border-radius: 20px;
     max-height: 455px;
