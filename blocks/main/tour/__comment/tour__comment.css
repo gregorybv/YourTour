@@ -6,8 +6,6 @@
   margin: 8px 0px 0px 0px;
   max-height: 146px;
   max-width: 100%;
-  /* text-align:start; */
-  /* padding: 0px 0px 118px 18px; */
 }
 
 .tour__comment:focus {
@@ -23,6 +21,7 @@
 }
 
 @media (max-width: 767.98px) {
+  
   .tour__comment {
     border-radius: 10px;
   }
