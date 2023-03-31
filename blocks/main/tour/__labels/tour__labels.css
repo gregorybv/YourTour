@@ -1,11 +1,8 @@
 .tour__labels {
-  /*display: block;*/
   display: flex;
   flex-direction: row-reverse;
   gap: 11px;
-
   position: relative;
-  /*padding-left: 35px;*/
   margin-bottom: 12px;
   cursor: pointer;
   -webkit-user-select: none;
