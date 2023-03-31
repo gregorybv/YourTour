@@ -8,12 +8,14 @@
 }
 
 @media (max-width: 1024px) {
+
   .footer__content {
     padding: 30px 53px;
   }
 }
 
 @media (max-width: 767.99px) {
+  
   .footer__content {
     flex-wrap: wrap;
     justify-content: center;
