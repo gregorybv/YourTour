@@ -3,6 +3,7 @@
   max-width: 1920px;
 }
 @media (max-width: 915px){
+  
 	.gallery {
 		margin-top: 75px;
 	}
