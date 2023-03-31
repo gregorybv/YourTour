@@ -5,6 +5,7 @@
 }
 
 @media (max-width: 767.98px) {
+  
   .footer__networks {
     gap: 20px;
   }
