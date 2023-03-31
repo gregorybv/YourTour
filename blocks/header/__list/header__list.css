@@ -13,12 +13,14 @@
 }
 
 @media (max-width: 1024px) {
+  
   .header__list {
     gap: 15px;
   }
 }
 
 @media (max-width: 915px) {
+
   .header__list {
     display: none;
   }
