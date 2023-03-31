@@ -8,12 +8,14 @@
 }
 
 @media (max-width: 1024px) {
+
   .tour__button {
     gap: 20px;
   }
 }
 
 @media (max-width: 767.98px) {
+  
   .tour__button {
     flex-wrap: wrap;
     gap: 30px;
