@@ -12,10 +12,12 @@
   line-height: 24px;
   letter-spacing: -0.01em;
   color: var(--dark-color);
+  
   cursor: pointer;
 }
 
 @media (max-width: 767.98px) {
+
   .header__button {
     font-size: 16px;
   }
