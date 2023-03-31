@@ -6,6 +6,7 @@
 }
 
 @media (max-width: 1024px) {
+  
   .tour__licenses {
     column-gap: 11px;
   }
