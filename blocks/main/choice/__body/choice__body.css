@@ -8,12 +8,14 @@
 }
 
 @media (max-width: 767.98px) {
+
   .choice__body {
     margin-bottom: 50px;
   }
 }
 
 @media (max-width: 767.98px) {
+  
   .choice__body {
     gap: 30px;
   }
