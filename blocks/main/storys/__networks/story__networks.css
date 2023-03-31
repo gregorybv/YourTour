@@ -5,6 +5,7 @@
 }
 
 @media (max-width: 767.99px) {
+  
   .story__networks {
     display: none;
   }
