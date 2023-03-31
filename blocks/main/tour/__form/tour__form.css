@@ -9,12 +9,14 @@
 }
 
 @media (max-width: 1024px) {
+
   .tour__form {
     padding: 60px 60px;
   }
 }
 
 @media (max-width: 767.98px) {
+  
   .tour__form {
     padding: 20px 20px 40px 20px;
     border-radius: 30px;
