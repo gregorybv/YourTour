@@ -6,12 +6,14 @@
 }
 
 @media (max-width: 1024px) {
+  
   .gallery__blocks {
     gap: 20px;
   }
 }
 
 @media (max-width: 915px) {
+
   .gallery__blocks {
     padding: 0px 21px;
     gap: 18px;
