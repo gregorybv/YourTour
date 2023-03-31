@@ -7,12 +7,14 @@
 }
 
 @media (max-width: 1024.98) {
+  
   .title-h2 {
     font-size: 59px;
   }
 }
 
 @media (max-width: 767.98px) {
+
   .title-h2 {
     font-size: 34px;
     line-height: 112%;
